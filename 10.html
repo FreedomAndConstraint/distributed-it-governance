@@ -1,0 +1,490 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Synchronous versus asynchronous execution | Decentralized IT governance</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.6">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./11.html" />
+    
+    
+    <link rel="prev" href="./9.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="1.3.2"
+        data-chapter-title="Synchronous versus asynchronous execution"
+        data-filepath="10.md"
+        data-basepath="."
+        data-revision="Wed Jan 20 2016 20:08:11 GMT+0100 (CET)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="1.html">
+            
+                
+                    <a href="./1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Decentralized IT governance
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="2.html">
+            
+                
+                    <a href="./2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Conceptual perspective
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="3.html">
+            
+                
+                    <a href="./3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.1.</b>
+                        
+                        Underlying worldview
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="4.html">
+            
+                
+                    <a href="./4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.2.</b>
+                        
+                        Dealing with reality
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="5.html">
+            
+                
+                    <a href="./5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Mathematical perspective
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="6.html">
+            
+                
+                    <a href="./6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.1.</b>
+                        
+                        Illustration: particle swarm optimization
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="7.html">
+            
+                
+                    <a href="./7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.2.</b>
+                        
+                        Illustration: metastability
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="8.html">
+            
+                
+                    <a href="./8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Computational perspective
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="9.html">
+            
+                
+                    <a href="./9.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.1.</b>
+                        
+                        Centralized vs decentralized systems
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="10.html">
+            
+                
+                    <a href="./10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.2.</b>
+                        
+                        Synchronous versus asynchronous execution
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="11.html">
+            
+                
+                    <a href="./11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.3.</b>
+                        
+                        Synchronization
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="12.html">
+            
+                
+                    <a href="./12.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.3.1.</b>
+                        
+                        Built-in complete synchrony / consensus
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="13.html">
+            
+                
+                    <a href="./13.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.3.2.</b>
+                        
+                        Completely asynchronous systems
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="14.html">
+            
+                
+                    <a href="./14.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.3.3.</b>
+                        
+                        Emerging global synchrony
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.4" data-path="15.html">
+            
+                
+                    <a href="./15.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.3.4.</b>
+                        
+                        Emerging local synchrony / consensuses
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.5" data-path="16.html">
+            
+                
+                    <a href="./16.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.3.5.</b>
+                        
+                        Designed local consensuses
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.6" data-path="17.html">
+            
+                
+                    <a href="./17.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.3.6.</b>
+                        
+                        Designed asynchrony
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="18.html">
+            
+                
+                    <a href="./18.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.4.</b>
+                        
+                        Computational guided self-organization / decentralized IT governance
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >Decentralized IT governance</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="synchronous-versus-asynchronous-execution">Synchronous versus asynchronous execution</h3>
+<p>The difference between synchronous and asynchronous execution becomes important when dealing with many independent processes which are trying to coordinate their actions / behaviour by interacting with each other. Such coordination is a necessary component of decentralized and distributed systems. Human social systems are a special case of a distributed system. Latest trends in IT industry clearly indicates, that in a few years, the amount of Internet-connected individual devices will exceed the Internet-connected humans by orders of magnitude (see <a href="http://searchcrm.techtarget.com/video/IoT-data-governance-challenges-discussed-at-Dreamforce?utm_medium=EM&amp;asrc=EM_ERU_51609603&amp;utm_campaign=20151225_ERU%20Transmission%20for%2012/25/2015%20%28UserUniverse:%201894642%29_myka-reports@techtarget.com&amp;utm_source=ERU&amp;src=5465424" target="_blank">IoT data governance challenges discussed at Dreamforce</a> from TechTarget). Which implies, that most of the communication will happen not between humans and humans, or humans and devices, but between devices with devices. The socio-technological system will not any more be able to operate on the basis of humans deciding what is needed to be done and then instructing devices to carry on certain actions. Devices will have to decide on their behaviours by coordinating with other devices, occasionally asking for the help from humans and / or providing already processed and reduced information to them.</p>
+<p>Within the domain of computer science, namely message-passing framework, synchrony and asynchrony are clearly defined<sup><a href="#fn_2" id="reffn_2">2</a></sup>.</p>
+<ul>
+<li><p><strong>Synchrony.</strong> A communication among processes is considered <em>synchronous</em> when every process observes the same order of messages within the system. In the same manner, the execution is considered <em>synchronous</em>, when every individual process in the system observes the same total order of all the processes which happen within it.</p>
+</li>
+<li><p><strong>Asynchrony</strong> is a kind of a reverse of synchrony. A communication among processes are considered <em>asynchronous</em>, when every communicating process can have a different observation of the order of the messages being exchanged (i.e. they can receive the same message at different times, etc.). Likewise, the execution is considered <em>asynchronous</em> when there is no one established way for processes to determine the single total order of the execution of all processes within the system.</p>
+</li>
+</ul>
+<p>These definitions connect to the &apos;Conceptual perspective&apos; in an interesting manner -- in the case of synchrony, the global process / omniscient observer is not necessary, but what is necessary, is that every process agrees on the total ordering of all events in the system -- an equivalent of the &quot;single truth&quot;. Recall also that synchrony is <strong>always</strong> build on asynchrony<sup><a href="#fn_6" id="reffn_6">6</a></sup> -- synchronous system can be described by asynchronous system with a set of constraints. Synchronization (section below) can be understood in terms of adding these constraints; decentralized / distributed consensus algorithms are therefore mechanisms of self-organizing constraints. </p>
+<p>Further, the trade-off between synchrony and asynchrony is applicable and helpful for reasoning about general distributed systems. It is quite clear that we are surrounded by natural or constructed asynchronous systems. Nature itself can be considered an asynchronous/decentralized system. E.g. the same astronomical events can be observed in reverse order by two independent observers if each of these observers are closer to the different astronomical event (see the theory of relativity) and if there is no notion of global time, which is accessible to both observers. It is also clear that without any level of synchrony within the system (global or local) it is quite difficult to reason about it.</p>
+<p>The diagram below (inspired and partially adopted from the post on <a href="http://blog.maidsafe.net/2015/12/04/evolving-terminology/" target="_blank">Evolving terminology with evolving technology: decentralized vs distributed</a> by <a href="https://forum.safenetwork.io/users/ioptio/activity" target="_blank">ioptio@madesafe</a>) illustrates how centralized -&gt; distributed -&gt; decentralized -&gt; peer-to-peer systems map within each other and map to the continuum between completely synchronous and completely asynchronous systems. Eyes on the right illustrate approaches two approaches synchronization mechanisms. Top-down approach means designing a centralized system from the beginning and then thinking how to deal with asynchrony / parallelism. Bottom-up approach starts from complete mess (asynchrony) and tries to figure out how can it achieve complete or partial synchrony.</p>
+<p><img src="https://bitbucket.org/freedomandconstraint/distributed-technologies-workshop/wiki/pictures/synchronization.png" alt=""></p>
+<p>Note, that &apos;complete synchrony &lt;-&gt; complete asynchrony&apos; axis does not order indicated system types but rather provides an additional axis for thinking about them: e.g. a peer-to-peer system could in principle be completely synchronous, but the rationale of designing such system would be not clear. It is somewhat more difficult to imagine centralized and asynchronous system, though.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./9.html" class="navigation navigation-prev " aria-label="Previous page: Centralized vs decentralized systems"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./11.html" class="navigation navigation-next " aria-label="Next page: Synchronization"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"expandable-chapters":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
